@@ -1,40 +1,27 @@
 # TOOLS.md - Local Notes
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## Gold Price API
+- URL: `https://api.gold-api.com/price/XAU`
+- 免费，无需 API Key
 
-## What Goes Here
+## Paywall Bypass
+- URL: `https://paywallbuster.com/[目标URL]`
+- 用于绕过付费文章
 
-Things like:
+## Image Generation
+- 工具：nano Banana 2
+- OpenRouter model ID: `google/gemini-3.1-flash-image-preview`
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+## Discord
+- 服务器 ID: 1479000073386987651
+- Bot Token / Webhooks: 见服务器环境变量（不存入 git）
 
-## Examples
+## SSH
+- GitHub SSH key: ~/.ssh/id_ed25519
+- Remote: git@github.com:sihuairen-alt/OpenClaw.git
 
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## Trello
+- 交易记录看板: 交易记录 2026
+- 日常看板: 日常 2026
+- 时区: 布里斯班 (GMT+10)
+- API Key / Token: 见服务器环境变量（不存入 git）
