@@ -40,6 +40,10 @@
     "tencent-cos-skill": {
       "version": "1.0.6",
       "installedAt": 1773556894145
+    },
+    "trello-api": {
+      "version": "1.0.3",
+      "installedAt": 1774127714324
     }
   }
 }
