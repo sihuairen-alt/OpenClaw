@@ -6,6 +6,12 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=trello-api",
       "source": "skillhub",
       "version": "1.0.3"
+    },
+    "google-calendar": {
+      "name": "Google Calendar",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=google-calendar",
+      "source": "skillhub",
+      "version": "0.1.0"
     }
   }
 }

@@ -44,6 +44,10 @@
     "trello-api": {
       "version": "1.0.3",
       "installedAt": 1774127714324
+    },
+    "google-calendar": {
+      "version": "0.1.0",
+      "installedAt": 1774138041862
     }
   }
 }
