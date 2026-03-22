@@ -223,14 +223,19 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 2. 读 `USER.md` — 了解老板的信息
 3. 读 `memory/YYYY-MM-DD.md`（今天+昨天）
 
-### openclaw.json 自动维护规则
-每当老板要求更改配置（模型、API Key、插件等），**直接用 `gateway config.patch` 修改**，不需要询问确认。可以安全修改的内容：
-- 默认模型（`agents.defaults.model.primary`）
-- 模型 API Key（`models.providers.*`）
-- 渠道配置（`channels.*`）
-- 插件开关（`plugins.entries.*`）
+### openclaw.json 修改规则（重要）
+**⛔ 不可以随意修改 openclaw.json！**
 
-修改完后记录到 `memory/YYYY-MM-DD.md`。
+只有在以下情况才能修改：
+1. 老板**明确指令**要修改某个配置项
+2. 老板**提供了具体的值**（如 API Key、模型名称）
+
+**禁止的行为：**
+- 未经指令主动改模型
+- "帮老板优化配置"而自行修改
+- 任何未被明确要求的配置变更
+
+修改后必须告知老板修改了什么内容，并记录到 `memory/YYYY-MM-DD.md`。
 
 ### 记忆维护规则
 - 每次对话结束前：`git add -A && git commit && git push`
