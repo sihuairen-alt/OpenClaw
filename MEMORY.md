@@ -102,3 +102,22 @@
 - 设置 GitHub remote: git@github.com:sihuairen-alt/OpenClaw.git
 - Ray 要求恢复完整历史记忆（发来 Telegram 导出的 HTML 文件）
 - 从 HTML 完整恢复了所有配置、交易记录、Trello 设置
+
+### 定时任务（Cron Jobs）
+- **大A早盘快报**：每周一至周五 09:30 北京时间自动推送
+  - Cron Job ID: `1f4233aa-8a56-4da6-a311-8f106a41e495`
+  - 内容：上证/深证/创业板指数 + DeepSeek AI 分析 + 操作建议
+  - 推送目标：Telegram 用户 1767343261
+
+### A股分析能力
+- 用 AKShare + DeepSeek API 直接分析（比 TradingAgents-CN 快）
+- 可分析个股：新闻 + 资金流向 + AI 综合判断
+- 可分析大盘：三大指数 + 北向资金 + 板块机会
+- TradingAgents-CN 已克隆至 `/root/.openclaw/workspace/TradingAgents-CN`，但环境问题多，暂不使用
+- Finnhub API Key: `d71ilahr01qot5jdij8gd71ilahr01qot5jdij90`（美股数据）
+
+### 2026-03-25 当日记录
+- 帮老板分析了：XAUUSD、300294（博雅生物）、000008（神州高铁）、大A大盘
+- 修复了 TradingAgents-CN 多处 bug，但因 AKShare 网络不稳定暂时放弃框架，改用直接调用方式
+- 配置了 Finnhub API Key + DashScope Key（MaaS企业版，endpoint特殊）
+- 老板要换便宜模型
