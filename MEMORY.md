@@ -17,7 +17,8 @@
 - OpenRouter API Key: [存储在 openclaw.json]
 - 默认模型: `openrouter/anthropic/claude-sonnet-4.6`
 - Brave Search API Key: [存储在 openclaw.json]
-- Gold-API: `https://api.gold-api.com/price/XAU`（免费，实时金价）
+- TwelveData（首选）: `https://api.twelvedata.com/price?symbol=XAU/USD` API Key 存 `/root/.openclaw/.env`
+- Gold-API（备用）: `https://api.gold-api.com/price/XAU`（免费，实时金价）
 - Trello API Key + Token: [存储在服务器环境变量]
 - SkillPay API Key: [存储在服务器环境变量]
 - OpenAI API Key: [存储在服务器环境变量]（用于 Whisper 语音转文字 + TTS）
