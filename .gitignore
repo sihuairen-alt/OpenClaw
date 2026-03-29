@@ -1,2 +1,4 @@
 client_secret.json
 .google_calendar_env
+.env
+../.env
